@@ -1,0 +1,14 @@
+--User que se uso fue 
+username = sa 
+passwd = 123
+
+
+Create database JavaPractice 
+use JavaPractice 
+
+Create table Producto(
+ ProductoId int primary key identity (1,1),
+ ProductoNombre varchar(50),
+ ProductoDesc varchar (50),
+ Precio Decimal (18,2));
+ Go 
